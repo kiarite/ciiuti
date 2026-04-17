@@ -1,4 +1,4 @@
-const CONFIG_URL = "../config/ciiuti-21q-bf-ciiu-v2.json";
+const CONFIG_URL = "/config/ciiuti-21q-bf-ciiu-v2.json";
 const LEVEL_NUM = { L: 1, M: 2, H: 3 };
 
 let config = null;
@@ -260,7 +260,6 @@ function renderResult(top1, top2, userPattern, sums, ranked) {
     state.startedAt = Date.now();
     renderQuestions();
   });
-  document.getElementById("backHomeBtn").addEventListener("click", renderIntro);
 }
 
 loadConfig();
