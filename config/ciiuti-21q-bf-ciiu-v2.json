@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "testId": "ciiuti-bf-ciiu-21q-v2",
+    "title": "SBTI已经过时了，现在是CIIUTI",
+    "subtitle": "测测你是奔赴少年CIIU里的谁",
+    "groupName": "奔赴少年CIIU",
+    "disclaimer": "本测试仅供娱乐，不收集任何个人信息。"
+  },
+  "scoring": {
+    "method": "sbti_style_lmh_manhattan",
+    "perQuestionScoreRange": [1, 4],
+    "questionsPerDimension": 3,
+    "dimensionSumRange": [3, 12],
+    "sumToLevelRule": {
+      "L": "3-6",
+      "M": "7-9",
+      "H": "10-12"
+    },
+    "levelNumericMap": {
+      "L": 1,
+      "M": 2,
+      "H": 3
+    }
+  },
+  "dimensions": [
+    { "id": "D1", "name": "舞台主导", "desc": "控场与临场推进" },
+    { "id": "D2", "name": "团队担当", "desc": "责任感与牺牲补位" },
+    { "id": "D3", "name": "业务硬度", "desc": "唱跳说创综合能力" },
+    { "id": "D4", "name": "营业风格", "desc": "内容偏好与出镜习惯" },
+    { "id": "D5", "name": "人格气质", "desc": "表达方式与人设特征" },
+    { "id": "D6", "name": "策划产能", "desc": "物料策划与执行" },
+    { "id": "D7", "name": "粉丝投入", "desc": "应援、传播与陪伴强度" }
+  ],
+  "roles": [
+    {
+      "id": "luo_yan",
+      "name": "罗言",
+      "pattern": { "D1": "H", "D2": "H", "D3": "H", "D4": "M", "D5": "M", "D6": "M", "D7": "L" },
+      "copy": {
+        "slogan": "舞台是正事，团队是底线",
+        "teaser": "你是带队型全能。该硬的时候硬，该扛的时候扛。",
+        "advice": "别总把责任一个人扛完，给队友留成长空间。"
+      },
+      "resultImage": "images/luo_yan.png"
+    },
+    {
+      "id": "huang_wenjin",
+      "name": "黄文锦",
+      "pattern": { "D1": "M", "D2": "M", "D3": "L", "D4": "H", "D5": "M", "D6": "L", "D7": "M" },
+      "copy": {
+        "slogan": "天马行空的真诚选手",
+        "teaser": "你有脑洞和直球真话，风格感强，执行力看心情。",
+        "advice": "把灵感落到固定节奏里，你会比现在强很多。"
+      },
+      "resultImage": "images/huang_wenjin.png"
+    },
+    {
+      "id": "bai_yuanhao",
+      "name": "白元昊",
+      "pattern": { "D1": "M", "D2": "H", "D3": "H", "D4": "M", "D5": "H", "D6": "M", "D7": "M" },
+      "copy": {
+        "slogan": "文艺发言人，主唱稳定器",
+        "teaser": "你能稳住场面，也能稳住人心，偶尔一句大实话直接封神。",
+        "advice": "继续保持真诚，适度增加个人锋芒会更出圈。"
+      },
+      "resultImage": "images/bai_yuanhao.png"
+    },
+    {
+      "id": "wang_tianyi",
+      "name": "王天意",
+      "pattern": { "D1": "H", "D2": "M", "D3": "M", "D4": "L", "D5": "M", "D6": "H", "D7": "L" },
+      "copy": {
+        "slogan": "颜值门面，关键时刻控场",
+        "teaser": "你很在意呈现质感，平时惜字如金，场子冷了会立刻接住。",
+        "advice": "把“努力”再做可见化，大家会更容易看到你的进步。"
+      },
+      "resultImage": "images/wang_tianyi.png"
+    },
+    {
+      "id": "liu_zeheng_allen",
+      "name": "刘泽亨Allen",
+      "pattern": { "D1": "M", "D2": "H", "D3": "M", "D4": "H", "D5": "H", "D6": "H", "D7": "M" },
+      "copy": {
+        "slogan": "热情满格的小太阳策划官",
+        "teaser": "你是那种又有干劲又肯下场做的人，创意和产能都在线。",
+        "advice": "保持热情的同时，注意节奏分配，避免长期透支。"
+      },
+      "resultImage": "images/liu_zeheng_allen.png"
+    },
+    {
+      "id": "j_y_park",
+      "name": "J.Y.Park",
+      "pattern": { "D1": "H", "D2": "H", "D3": "H", "D4": "H", "D5": "M", "D6": "H", "D7": "M" },
+      "copy": {
+        "slogan": "老板也是顶级艺人",
+        "teaser": "你是体系化强者：标准高、执行稳、创作与舞台都不掉线。",
+        "advice": "继续用高标准带人，也别忘了给团队更多容错空间。"
+      },
+      "resultImage": "images/j_y_park.png"
+    },
+    {
+      "id": "xiao_fuxing",
+      "name": "晓福星",
+      "pattern": { "D1": "L", "D2": "M", "D3": "L", "D4": "H", "D5": "H", "D6": "M", "D7": "H" },
+      "copy": {
+        "slogan": "奔赴少年头号纯爱应援官",
+        "teaser": "你是会跨城奔赴、会做安利内容、会把喜欢变成行动的人。",
+        "advice": "热爱很珍贵，也记得把预算和作息管理好。"
+      },
+      "resultImage": "images/xiao_fuxing.png"
+    }
+  ],
+  "optionHintByDimension": {
+    "D1": {
+      "A": ["晓福星"],
+      "B": ["黄文锦", "白元昊", "刘泽亨Allen"],
+      "C": ["黄文锦", "白元昊", "刘泽亨Allen", "罗言"],
+      "D": ["罗言", "王天意", "J.Y.Park"]
+    },
+    "D2": {
+      "A": [],
+      "B": ["黄文锦", "王天意", "晓福星"],
+      "C": ["黄文锦", "王天意", "晓福星", "白元昊", "刘泽亨Allen"],
+      "D": ["罗言", "白元昊", "刘泽亨Allen", "J.Y.Park"]
+    },
+    "D3": {
+      "A": ["晓福星"],
+      "B": ["黄文锦", "王天意", "刘泽亨Allen"],
+      "C": ["黄文锦", "王天意", "刘泽亨Allen", "白元昊"],
+      "D": ["罗言", "白元昊", "J.Y.Park"]
+    },
+    "D4": {
+      "A": ["王天意"],
+      "B": ["罗言", "白元昊"],
+      "C": ["罗言", "白元昊", "黄文锦", "刘泽亨Allen"],
+      "D": ["黄文锦", "刘泽亨Allen", "J.Y.Park", "晓福星"]
+    },
+    "D5": {
+      "A": [],
+      "B": ["罗言", "黄文锦", "王天意", "J.Y.Park"],
+      "C": ["罗言", "黄文锦", "王天意", "J.Y.Park", "白元昊"],
+      "D": ["白元昊", "刘泽亨Allen", "晓福星"]
+    },
+    "D6": {
+      "A": [],
+      "B": ["罗言", "黄文锦", "白元昊", "晓福星"],
+      "C": ["罗言", "黄文锦", "白元昊", "晓福星", "王天意", "刘泽亨Allen"],
+      "D": ["王天意", "刘泽亨Allen", "J.Y.Park"]
+    },
+    "D7": {
+      "A": ["罗言", "王天意"],
+      "B": ["黄文锦", "白元昊", "刘泽亨Allen"],
+      "C": ["黄文锦", "白元昊", "刘泽亨Allen", "J.Y.Park"],
+      "D": ["晓福星", "J.Y.Park"]
+    }
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "dimensionId": "D1",
+      "text": "直播突然冷场，你最可能的反应是？",
+      "options": [
+        { "id": "A", "label": "先沉默观望，等别人接，看热闹不嫌事大", "score": 1 },
+        { "id": "B", "label": "接一句场面话，尽快转给别人", "score": 2 },
+        { "id": "C", "label": "主动找话题，把气氛拉起来，但可能有点生硬", "score": 3 },
+        { "id": "D", "label": "直接接管节奏，连续推进流程", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q02",
+      "dimensionId": "D1",
+      "text": "排练中临时改编动作，你会？",
+      "options": [
+        { "id": "A", "label": "只求跟上，不主动发言", "score": 1 },
+        { "id": "B", "label": "能完成就行，不抢主导", "score": 2 },
+        { "id": "C", "label": "会提一个可执行改法", "score": 3 },
+        { "id": "D", "label": "快速组织全队试排新动作", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q03",
+      "dimensionId": "D1",
+      "text": "舞台镜头给到你时，你通常会？",
+      "options": [
+        { "id": "A", "label": "尽量少出错，不做额外设计", "score": 1 },
+        { "id": "B", "label": "按既定动作稳定完成", "score": 2 },
+        { "id": "C", "label": "加一点个人表情和细节", "score": 3 },
+        { "id": "D", "label": "把镜头当主场，主动抓注意力", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q04",
+      "dimensionId": "D2",
+      "text": "队友状态下滑明显时，你会怎么做？",
+      "options": [
+        { "id": "A", "label": "先顾自己，不额外介入", "score": 1 },
+        { "id": "B", "label": "提醒一下，其他不管", "score": 2 },
+        { "id": "C", "label": "私下陪练或帮他顺流程", "score": 3 },
+        { "id": "D", "label": "主动调整分工，自己多扛一部分", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q05",
+      "dimensionId": "D2",
+      "text": "当团队利益和个人曝光冲突时，你倾向？",
+      "options": [
+        { "id": "A", "label": "优先保住自己曝光", "score": 1 },
+        { "id": "B", "label": "看情况，两边都不想吃亏", "score": 2 },
+        { "id": "C", "label": "优先团队效果，个人可后置", "score": 3 },
+        { "id": "D", "label": "愿意主动牺牲自己补团队短板", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q06",
+      "dimensionId": "D2",
+      "text": "团体采访中队友卡壳，你会？",
+      "options": [
+        { "id": "A", "label": "不接话，避免说错", "score": 1 },
+        { "id": "B", "label": "补一句就停", "score": 2 },
+        { "id": "C", "label": "自然接梗并把话递回去", "score": 3 },
+        { "id": "D", "label": "帮他兜完整段并照顾全员镜头", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q07",
+      "dimensionId": "D3",
+      "text": "你对自己业务短板的处理是？",
+      "options": [
+        { "id": "A", "label": "尽量回避相关任务", "score": 1 },
+        { "id": "B", "label": "被要求才补一点", "score": 2 },
+        { "id": "C", "label": "固定训练，稳步补齐", "score": 3 },
+        { "id": "D", "label": "长期高强度打磨到可输出", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q08",
+      "dimensionId": "D3",
+      "text": "面对高难舞台任务，你通常会？",
+      "options": [
+        { "id": "A", "label": "先想怎么避开最难段", "score": 1 },
+        { "id": "B", "label": "完成基本要求即可", "score": 2 },
+        { "id": "C", "label": "主动加练，保证稳定", "score": 3 },
+        { "id": "D", "label": "把标准拉到很高并反复复盘", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q09",
+      "dimensionId": "D3",
+      "text": "你最像哪类业务选手？",
+      "options": [
+        { "id": "A", "label": "有明显短板，靠人设撑场", "score": 1 },
+        { "id": "B", "label": "业务中等，发挥不太稳定", "score": 2 },
+        { "id": "C", "label": "有一到两项突出能力", "score": 3 },
+        { "id": "D", "label": "唱跳说创多维都很能打", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q10",
+      "dimensionId": "D4",
+      "text": "你更常发哪类营业内容？",
+      "options": [
+        { "id": "A", "label": "很少发，基本随缘", "score": 1 },
+        { "id": "B", "label": "轻量日常或手势舞为主", "score": 2 },
+        { "id": "C", "label": "以舞台片段/练习内容为主", "score": 3 },
+        { "id": "D", "label": "会做梗、剪视频、做系列内容", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q11",
+      "dimensionId": "D4",
+      "text": "关于自拍与出镜，你更接近？",
+      "options": [
+        { "id": "A", "label": "很少自拍，几乎不发", "score": 1 },
+        { "id": "B", "label": "发得不多，主要维持存在感", "score": 2 },
+        { "id": "C", "label": "会按节奏发，注重质量", "score": 3 },
+        { "id": "D", "label": "高频更新，内容风格明确", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q12",
+      "dimensionId": "D4",
+      "text": "你面对“营业KPI”时会？",
+      "options": [
+        { "id": "A", "label": "能拖就拖，最后补一下", "score": 1 },
+        { "id": "B", "label": "按最低标准完成", "score": 2 },
+        { "id": "C", "label": "结合个人定位稳定输出", "score": 3 },
+        { "id": "D", "label": "主动设计栏目，超额完成", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q13",
+      "dimensionId": "D5",
+      "text": "你的日常表达风格更像？",
+      "options": [
+        { "id": "A", "label": "沉默寡言，不太表达情绪", "score": 1 },
+        { "id": "B", "label": "想到什么说什么，比较直", "score": 2 },
+        { "id": "C", "label": "温和理性，偶尔幽默", "score": 3 },
+        { "id": "D", "label": "有感染力，能带动人情绪", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q14",
+      "dimensionId": "D5",
+      "text": "你在团队里最常被评价为？",
+      "options": [
+        { "id": "A", "label": "有距离感/偶像包袱重", "score": 1 },
+        { "id": "B", "label": "真诚直球但有点散漫", "score": 2 },
+        { "id": "C", "label": "稳重文艺，像靠谱对象", "score": 3 },
+        { "id": "D", "label": "阳光外放，像小太阳", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q15",
+      "dimensionId": "D5",
+      "text": "当被问到尖锐问题时，你通常？",
+      "options": [
+        { "id": "A", "label": "尽量回避，不给态度", "score": 1 },
+        { "id": "B", "label": "直接说真话，不太修饰", "score": 2 },
+        { "id": "C", "label": "先共情再给理性回答", "score": 3 },
+        { "id": "D", "label": "化解尴尬并顺势制造亮点", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q16",
+      "dimensionId": "D6",
+      "text": "团队要做新系列物料时，你会？",
+      "options": [
+        { "id": "A", "label": "等分配任务再动", "score": 1 },
+        { "id": "B", "label": "提供想法，但不跟执行", "score": 2 },
+        { "id": "C", "label": "参与脚本或流程设计", "score": 3 },
+        { "id": "D", "label": "从策划到剪辑都亲自推进", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q17",
+      "dimensionId": "D6",
+      "text": "直播话题跑偏后，你会？",
+      "options": [
+        { "id": "A", "label": "放着不管，随便聊", "score": 1 },
+        { "id": "B", "label": "提醒一下但很快又偏", "score": 2 },
+        { "id": "C", "label": "及时拉回主线继续推进", "score": 3 },
+        { "id": "D", "label": "重设节奏点并控完整场", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q18",
+      "dimensionId": "D6",
+      "text": "面对多任务并行（排练/拍摄/运营）时，你更像？",
+      "options": [
+        { "id": "A", "label": "凭感觉做，容易乱", "score": 1 },
+        { "id": "B", "label": "先做眼前最急的", "score": 2 },
+        { "id": "C", "label": "按优先级和资源排程", "score": 3 },
+        { "id": "D", "label": "兼顾效率和长期策略，带动全队协同", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q19",
+      "dimensionId": "D7",
+      "text": "如果你超喜欢一个团，你最可能做的是？",
+      "options": [
+        { "id": "A", "label": "只听歌看看舞台，不深度参与", "score": 1 },
+        { "id": "B", "label": "偶尔转发，随缘应援", "score": 2 },
+        { "id": "C", "label": "持续追更并做安利内容", "score": 3 },
+        { "id": "D", "label": "跨城奔赴活动，长期稳定支持", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q20",
+      "dimensionId": "D7",
+      "text": "面对签售/周边这类消费，你会？",
+      "options": [
+        { "id": "A", "label": "基本不买，理性围观", "score": 1 },
+        { "id": "B", "label": "偶尔小额支持", "score": 2 },
+        { "id": "C", "label": "会按计划持续购买", "score": 3 },
+        { "id": "D", "label": "为了支持可投入高预算", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q21",
+      "dimensionId": "D7",
+      "text": "你在社交平台会怎样安利喜欢的团？",
+      "options": [
+        { "id": "A", "label": "几乎不发相关内容", "score": 1 },
+        { "id": "B", "label": "偶尔发一两条", "score": 2 },
+        { "id": "C", "label": "常发剪辑/梗图并互动", "score": 3 },
+        { "id": "D", "label": "形成稳定内容矩阵持续拉新", "score": 4 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "testId": "idol6-v1",
+    "title": "你是男团里的谁？",
+    "version": "0.1.0",
+    "locale": "zh-CN",
+    "resultCount": 6
+  },
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "舞台主导",
+      "description": "控场与镜头中心倾向",
+      "weight": 1.0
+    },
+    {
+      "id": "D2",
+      "name": "团队协同",
+      "description": "补位与协作能力",
+      "weight": 1.0
+    },
+    {
+      "id": "D3",
+      "name": "自律打磨",
+      "description": "训练纪律与稳定执行",
+      "weight": 1.1
+    },
+    {
+      "id": "D4",
+      "name": "创作表达",
+      "description": "创意输出与个人风格",
+      "weight": 1.0
+    },
+    {
+      "id": "D5",
+      "name": "情绪张力",
+      "description": "情绪感染与故事张力",
+      "weight": 0.9
+    },
+    {
+      "id": "D6",
+      "name": "商业掌控",
+      "description": "策略、资源与结果导向",
+      "weight": 1.2
+    }
+  ],
+  "roles": [
+    {
+      "id": "member_a",
+      "name": "成员A",
+      "archetypeVector": { "D1": 0, "D2": 0, "D3": 0, "D4": 0, "D5": 0, "D6": 0 },
+      "copy": {
+        "slogan": "",
+        "teaser": "",
+        "advice": ""
+      }
+    },
+    {
+      "id": "member_b",
+      "name": "成员B",
+      "archetypeVector": { "D1": 0, "D2": 0, "D3": 0, "D4": 0, "D5": 0, "D6": 0 },
+      "copy": {
+        "slogan": "",
+        "teaser": "",
+        "advice": ""
+      }
+    },
+    {
+      "id": "member_c",
+      "name": "成员C",
+      "archetypeVector": { "D1": 0, "D2": 0, "D3": 0, "D4": 0, "D5": 0, "D6": 0 },
+      "copy": {
+        "slogan": "",
+        "teaser": "",
+        "advice": ""
+      }
+    },
+    {
+      "id": "member_d",
+      "name": "成员D",
+      "archetypeVector": { "D1": 0, "D2": 0, "D3": 0, "D4": 0, "D5": 0, "D6": 0 },
+      "copy": {
+        "slogan": "",
+        "teaser": "",
+        "advice": ""
+      }
+    },
+    {
+      "id": "member_e",
+      "name": "成员E",
+      "archetypeVector": { "D1": 0, "D2": 0, "D3": 0, "D4": 0, "D5": 0, "D6": 0 },
+      "copy": {
+        "slogan": "",
+        "teaser": "",
+        "advice": ""
+      }
+    },
+    {
+      "id": "jyp",
+      "name": "JYP",
+      "archetypeVector": { "D1": 0, "D2": 0, "D3": 0, "D4": 0, "D5": 0, "D6": 0 },
+      "copy": {
+        "slogan": "",
+        "teaser": "",
+        "advice": ""
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q01",
+      "dimensionId": "D1",
+      "text": "",
+      "reverseScored": false,
+      "options": [
+        { "id": "A", "label": "", "score": 1 },
+        { "id": "B", "label": "", "score": 2 },
+        { "id": "C", "label": "", "score": 3 },
+        { "id": "D", "label": "", "score": 4 },
+        { "id": "E", "label": "", "score": 5 }
+      ]
+    },
+    {
+      "id": "Q02",
+      "dimensionId": "D1",
+      "text": "",
+      "reverseScored": false,
+      "options": [
+        { "id": "A", "label": "", "score": 1 },
+        { "id": "B", "label": "", "score": 2 },
+        { "id": "C", "label": "", "score": 3 },
+        { "id": "D", "label": "", "score": 4 },
+        { "id": "E", "label": "", "score": 5 }
+      ]
+    },
+    {
+      "id": "Q03",
+      "dimensionId": "D1",
+      "text": "",
+      "reverseScored": true,
+      "options": [
+        { "id": "A", "label": "", "score": 1 },
+        { "id": "B", "label": "", "score": 2 },
+        { "id": "C", "label": "", "score": 3 },
+        { "id": "D", "label": "", "score": 4 },
+        { "id": "E", "label": "", "score": 5 }
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "weighted_manhattan",
+    "confidenceThreshold": 6,
+    "qualityGuard": {
+      "maxSingleChoiceRatio": 0.8,
+      "minDurationSeconds": 45
+    }
+  }
+}

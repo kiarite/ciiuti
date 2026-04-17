@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "testId": "ciiuti-7roles-21q-v1",
+    "title": "SBTI已经过时了，现在是CIIUTI",
+    "subtitle": "测测你是奔赴少年CIIU里的谁",
+    "disclaimer": "本测试仅供娱乐，不收集任何个人信息。"
+  },
+  "scoring": {
+    "method": "sbti_style_lmh_manhattan",
+    "perQuestionScoreRange": [1, 4],
+    "questionsPerDimension": 3,
+    "dimensionSumRange": [3, 12],
+    "sumToLevelRule": {
+      "L": "3-6",
+      "M": "7-9",
+      "H": "10-12"
+    },
+    "levelNumericMap": {
+      "L": 1,
+      "M": 2,
+      "H": 3
+    }
+  },
+  "dimensions": [
+    { "id": "D1", "name": "舞台呈现", "desc": "存在感与控场倾向" },
+    { "id": "D2", "name": "团队协同", "desc": "补位与配合" },
+    { "id": "D3", "name": "自律执行", "desc": "训练感与落地" },
+    { "id": "D4", "name": "创作表达", "desc": "风格与输出" },
+    { "id": "D5", "name": "情绪张力", "desc": "感染与表达" },
+    { "id": "D6", "name": "策略掌控", "desc": "目标与资源感" },
+    { "id": "D7", "name": "粉丝向", "desc": "应援、陪伴与关注" }
+  ],
+  "roles": [
+    {
+      "id": "member_1",
+      "name": "罗言",
+      "pattern": { "D1": "H", "D2": "M", "D3": "M", "D4": "L", "D5": "H", "D6": "M", "D7": "L" },
+      "copy": {
+        "slogan": "待填",
+        "teaser": "待填",
+        "advice": "待填"
+      },
+      "resultImage": "images/member_1.png"
+    },
+    {
+      "id": "member_2",
+      "name": "黄文锦",
+      "pattern": { "D1": "L", "D2": "H", "D3": "M", "D4": "H", "D5": "L", "D6": "M", "D7": "M" },
+      "copy": {
+        "slogan": "待填",
+        "teaser": "待填",
+        "advice": "待填"
+      },
+      "resultImage": "images/member_2.png"
+    },
+    {
+      "id": "member_3",
+      "name": "白元昊",
+      "pattern": { "D1": "M", "D2": "L", "D3": "M", "D4": "H", "D5": "H", "D6": "L", "D7": "H" },
+      "copy": {
+        "slogan": "待填",
+        "teaser": "待填",
+        "advice": "待填"
+      },
+      "resultImage": "images/member_3.png"
+    },
+    {
+      "id": "member_4",
+      "name": "王天意",
+      "pattern": { "D1": "M", "D2": "M", "D3": "H", "D4": "L", "D5": "M", "D6": "H", "D7": "L" },
+      "copy": {
+        "slogan": "待填",
+        "teaser": "待填",
+        "advice": "待填"
+      },
+      "resultImage": "images/member_4.png"
+    },
+    {
+      "id": "member_5",
+      "name": "刘泽亨Allen",
+      "pattern": { "D1": "L", "D2": "M", "D3": "L", "D4": "M", "D5": "H", "D6": "M", "D7": "M" },
+      "copy": {
+        "slogan": "待填",
+        "teaser": "待填",
+        "advice": "待填"
+      },
+      "resultImage": "images/member_5.png"
+    },
+    {
+      "id": "boss",
+      "name": "J.Y.Park",
+      "pattern": { "D1": "M", "D2": "M", "D3": "H", "D4": "M", "D5": "L", "D6": "H", "D7": "H" },
+      "copy": {
+        "slogan": "待填",
+        "teaser": "待填",
+        "advice": "待填"
+      },
+      "resultImage": "images/boss.png"
+    },
+    {
+      "id": "fan",
+      "name": "晓福星",
+      "pattern": { "D1": "L", "D2": "M", "D3": "L", "D4": "L", "D5": "M", "D6": "L", "D7": "H" },
+      "copy": {
+        "slogan": "待填",
+        "teaser": "待填",
+        "advice": "待填"
+      },
+      "resultImage": "images/fan.png"
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q01",
+      "dimensionId": "D1",
+      "text": "今天没有拍摄，离上课还有半个小时，你通常会？",
+      "options": [
+        { "id": "A", "label": "尽量躲到队形后排，避免被点名", "score": 1 },
+        { "id": "B", "label": "被安排就做，但不主动争取", "score": 2 },
+        { "id": "C", "label": "主动申请尝试一次，看看效果", "score": 3 },
+        { "id": "D", "label": "直接提出完整方案并带大家走位", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q02",
+      "dimensionId": "D1",
+      "text": "舞台镜头切到你时，你最常见的状态是？",
+      "options": [
+        { "id": "A", "label": "略紧张，容易做保守动作", "score": 1 },
+        { "id": "B", "label": "完成动作优先，情绪收着", "score": 2 },
+        { "id": "C", "label": "会加一点个人表情和设计", "score": 3 },
+        { "id": "D", "label": "天然进入主场状态，主动抓镜头", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q03",
+      "dimensionId": "D1",
+      "text": "活动现场突然冷场时，你会？",
+      "options": [
+        { "id": "A", "label": "等待别人先救场", "score": 1 },
+        { "id": "B", "label": "配合别人抛梗，少说少错", "score": 2 },
+        { "id": "C", "label": "主动接一句并把气氛拉回来", "score": 3 },
+        { "id": "D", "label": "立刻接管节奏，连续抛点控场", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q04",
+      "dimensionId": "D2",
+      "text": "团队有人动作总慢半拍，你通常怎么做？",
+      "options": [
+        { "id": "A", "label": "各练各的，先顾好自己", "score": 1 },
+        { "id": "B", "label": "提醒一次，之后不再介入", "score": 2 },
+        { "id": "C", "label": "私下陪练几遍，帮他卡点", "score": 3 },
+        { "id": "D", "label": "主动重排配合节奏，确保全队整齐", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q05",
+      "dimensionId": "D2",
+      "text": "团体采访时，你更像哪种角色？",
+      "options": [
+        { "id": "A", "label": "只回答自己相关问题", "score": 1 },
+        { "id": "B", "label": "偶尔接话，但不主动补位", "score": 2 },
+        { "id": "C", "label": "会给队友递话、接梗", "score": 3 },
+        { "id": "D", "label": "主动平衡发言，让每个人有镜头", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q06",
+      "dimensionId": "D2",
+      "text": "分part时你拿到不是最想要的段落，你会？",
+      "options": [
+        { "id": "A", "label": "不太配合，影响训练心态", "score": 1 },
+        { "id": "B", "label": "接受安排，但投入一般", "score": 2 },
+        { "id": "C", "label": "先把当前part做好，再争取调整", "score": 3 },
+        { "id": "D", "label": "以整体效果优先，主动补队伍短板", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q07",
+      "dimensionId": "D3",
+      "text": "没有监督时，你的训练习惯更接近？",
+      "options": [
+        { "id": "A", "label": "看心情练，容易断档", "score": 1 },
+        { "id": "B", "label": "完成基本量就停", "score": 2 },
+        { "id": "C", "label": "按计划完成，并做简单复盘", "score": 3 },
+        { "id": "D", "label": "会额外加练并记录细节优化", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q08",
+      "dimensionId": "D3",
+      "text": "连续几天状态不佳时，你会？",
+      "options": [
+        { "id": "A", "label": "直接摆烂，等状态自己回来", "score": 1 },
+        { "id": "B", "label": "降低标准，先糊过去", "score": 2 },
+        { "id": "C", "label": "调节后继续按计划推进", "score": 3 },
+        { "id": "D", "label": "重做训练策略并严格执行", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q09",
+      "dimensionId": "D3",
+      "text": "你对“一个动作打磨到位”的标准是？",
+      "options": [
+        { "id": "A", "label": "差不多就行，不必太细", "score": 1 },
+        { "id": "B", "label": "老师不指出就不额外修", "score": 2 },
+        { "id": "C", "label": "会主动看回放修正", "score": 3 },
+        { "id": "D", "label": "反复拆解到稳定可复现", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q10",
+      "dimensionId": "D4",
+      "text": "面对同一段旋律，你更常做的是？",
+      "options": [
+        { "id": "A", "label": "照模板完成，不想改动", "score": 1 },
+        { "id": "B", "label": "小幅调整，整体不变", "score": 2 },
+        { "id": "C", "label": "加入个人处理和记忆点", "score": 3 },
+        { "id": "D", "label": "直接重构表达逻辑并提新方向", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q11",
+      "dimensionId": "D4",
+      "text": "你在团队创作会里通常扮演？",
+      "options": [
+        { "id": "A", "label": "主要听别人方案", "score": 1 },
+        { "id": "B", "label": "有想法但不常主动提", "score": 2 },
+        { "id": "C", "label": "会持续提出可落地创意", "score": 3 },
+        { "id": "D", "label": "经常抛出核心概念带动全组", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q12",
+      "dimensionId": "D4",
+      "text": "如果反馈“风格太保守”，你会？",
+      "options": [
+        { "id": "A", "label": "不太在意，维持原样", "score": 1 },
+        { "id": "B", "label": "表面接受，实际变化很少", "score": 2 },
+        { "id": "C", "label": "挑一个环节做实验调整", "score": 3 },
+        { "id": "D", "label": "系统升级视觉和内容表达", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q13",
+      "dimensionId": "D5",
+      "text": "舞台上表达情绪时，你更像？",
+      "options": [
+        { "id": "A", "label": "尽量收着，怕过头", "score": 1 },
+        { "id": "B", "label": "只做基本表情管理", "score": 2 },
+        { "id": "C", "label": "会按段落释放不同情绪", "score": 3 },
+        { "id": "D", "label": "能把观众明显带入情绪轨道", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q14",
+      "dimensionId": "D5",
+      "text": "当作品引发争议评论时，你会？",
+      "options": [
+        { "id": "A", "label": "完全回避，不再回应", "score": 1 },
+        { "id": "B", "label": "简单回应后迅速抽离", "score": 2 },
+        { "id": "C", "label": "理性回应并表达真实态度", "score": 3 },
+        { "id": "D", "label": "把争议转化为下一次表达素材", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q15",
+      "dimensionId": "D5",
+      "text": "遇到“需要打动人”的舞台主题时，你会优先？",
+      "options": [
+        { "id": "A", "label": "动作准确，不追求感染", "score": 1 },
+        { "id": "B", "label": "参考常见套路处理", "score": 2 },
+        { "id": "C", "label": "结合自身经历做情绪设计", "score": 3 },
+        { "id": "D", "label": "从音乐到表演整体构建情绪线", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q16",
+      "dimensionId": "D6",
+      "text": "一个月后有重要舞台，你第一步会？",
+      "options": [
+        { "id": "A", "label": "先等通知，临近再说", "score": 1 },
+        { "id": "B", "label": "先练最熟的部分", "score": 2 },
+        { "id": "C", "label": "先拆任务和时间节点", "score": 3 },
+        { "id": "D", "label": "连资源、人力、风险都先做规划", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q17",
+      "dimensionId": "D6",
+      "text": "遇到资源冲突（行程/训练/拍摄）时，你会？",
+      "options": [
+        { "id": "A", "label": "谁催得急就先做谁", "score": 1 },
+        { "id": "B", "label": "按习惯顺序处理", "score": 2 },
+        { "id": "C", "label": "按目标优先级取舍", "score": 3 },
+        { "id": "D", "label": "重排整体路径并同步相关人", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q18",
+      "dimensionId": "D6",
+      "text": "你做决定更依赖？",
+      "options": [
+        { "id": "A", "label": "当下直觉，先做再说", "score": 1 },
+        { "id": "B", "label": "身边人意见为主", "score": 2 },
+        { "id": "C", "label": "目标+数据+经验综合判断", "score": 3 },
+        { "id": "D", "label": "先看长期收益再选最优解", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q19",
+      "dimensionId": "D7",
+      "text": "看到喜欢的团体发新内容，你最常见行为是？",
+      "options": [
+        { "id": "A", "label": "偶尔刷到才看", "score": 1 },
+        { "id": "B", "label": "会看，但不持续跟进", "score": 2 },
+        { "id": "C", "label": "会主动追更并参与讨论", "score": 3 },
+        { "id": "D", "label": "会系统关注并拉朋友一起应援", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q20",
+      "dimensionId": "D7",
+      "text": "遇到团体被误解时，你通常会？",
+      "options": [
+        { "id": "A", "label": "不参与，怕麻烦", "score": 1 },
+        { "id": "B", "label": "只在熟人圈简单解释", "score": 2 },
+        { "id": "C", "label": "理性澄清并给出信息来源", "score": 3 },
+        { "id": "D", "label": "组织资料、统一口径主动引导讨论", "score": 4 }
+      ]
+    },
+    {
+      "id": "Q21",
+      "dimensionId": "D7",
+      "text": "以下哪种“支持方式”最像你？",
+      "options": [
+        { "id": "A", "label": "喜欢就好，不会投入太多", "score": 1 },
+        { "id": "B", "label": "偶尔打榜/转发，随机参与", "score": 2 },
+        { "id": "C", "label": "会持续参与多个应援环节", "score": 3 },
+        { "id": "D", "label": "长期稳定投入，并自发组织协作", "score": 4 }
+      ]
+    }
+  ],
