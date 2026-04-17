@@ -1,4 +1,4 @@
-const CONFIG_URL = "./config/ciiuti-21q-bf-ciiu-v2.json";
+const CONFIG_URL = new URL("./config/ciiuti-21q-bf-ciiu-v2.json", document.currentScript.src).href;
 const LEVEL_NUM = { L: 1, M: 2, H: 3 };
 
 let config = null;
